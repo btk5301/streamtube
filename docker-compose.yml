@@ -19,8 +19,8 @@ services:
       - '4001:80'
     environment:
       - 'PORT=80'
-      - 'STORAGE_ACCOUNT_NAME=**'
-      - 'STORAGE_ACCESS_KEY=**'
+      - 'STORAGE_ACCOUNT_NAME=briankstore'
+      - 'STORAGE_ACCESS_KEY=mE9xHF7YdTJeMBsCCmYANU5xZyDGYZET7L7G5LkLIseFNfxOWmwH+HzunJcpwMx21Hx/HjqUXsMj+TERfi+75Q=='
     restart: 'no'
   video-streaming:
     image: video-streaming
